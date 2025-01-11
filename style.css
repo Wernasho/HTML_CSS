@@ -1,0 +1,49 @@
+/*If you don't want to use a custom font, then delete lines 10, 39 and 48. Or else, you can go to https://fonts.google.com and search for your very own font!*/
+
+h1 {
+    width: 350px;
+    margin: 0 auto;
+    background-color: beige;
+    border: solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-family:'Roboto Mono';
+}
+
+.result {
+    color:rgb(113, 206, 175);
+    font-size: 25px;
+    border: rgb(120, 189, 189) solid;
+    width:300px;
+}
+
+input {
+    background-color: black;
+    color:white;
+}
+
+body {
+    background-color: azure;
+}
+
+#credits {
+    border-radius: 15px;
+    width:fit-content;
+    border: outset rgb(159, 184, 71);
+    margin: 0 auto;
+}
+
+button {
+    background-color:black;
+    color:white;
+    font-family: 'Roboto Mono';
+}
+
+button:active {
+    background-color: white;
+    color:black;
+}
+
+p {
+    font-family: 'Roboto Mono';
+}
